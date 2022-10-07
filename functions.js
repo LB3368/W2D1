@@ -7,7 +7,7 @@ Name function accordingly.
 */
 
 // 2 Ways to Write a function
- // Function Declaration
+ // ========Function DECLARATION===========
 // function declarations will be hoisted to the top.
 /*
  function sayHello (name) {
@@ -15,7 +15,7 @@ Name function accordingly.
  }
 
  sayHello("Toby")
-  // function expression
+  // ======FUNCTION EXPRESSION=========
   const sayHelloAgain = function (name) {
     if (typeof name !== "string" ) {
         console.log("Input was not a string, Try again")
